@@ -41,7 +41,7 @@ const EventCard = ({event}) => {
             </p>
             <div className="flex justify-end">
             <SignedIn>
-                <EditIcon />
+                <EditIcon event={event} />
             </SignedIn>
         </div>
 
